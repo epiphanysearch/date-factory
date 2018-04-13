@@ -1,0 +1,23 @@
+{
+    "name": "epiphany/date-factory",
+    "description": "Simple, mockable, factory for creating dates",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dan Martin",
+            "email": "dan.martin@epiphanysolutions.co.uk"
+        }
+    ],
+    "require": {
+    	"php": "^7.1"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^4.3"
+    },
+    "autoload": {
+	"psr-4": {
+		"Epiphany\\DateFactory\\": "src"
+	}
+    }
+}

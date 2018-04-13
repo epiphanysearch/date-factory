@@ -1,0 +1,4 @@
+suites:
+    epiphany_datefactory:
+        namespace: Epiphany\DateFactory
+        psr4_prefix: Epiphany\DateFactory
